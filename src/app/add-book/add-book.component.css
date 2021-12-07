@@ -1,0 +1,35 @@
+section{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    position:absolute;
+    bottom:0;
+    margin-bottom: 2rem;
+   
+}
+button{
+    padding:1rem;
+    margin: 1rem 0;
+    border:0;
+    background-color: green;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+}
+button:hover{
+    cursor: pointer;
+}
+input{
+    margin-bottom: .5rem;
+    padding: 1rem;
+    border: 0;
+    outline: 2px solid grey;
+    border-radius: 4px;
+}
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}

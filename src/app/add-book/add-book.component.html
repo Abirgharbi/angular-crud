@@ -1,0 +1,16 @@
+<!-- <form action="">  when i put form there are auto refresh    -->
+<div class="container">
+    <section>
+
+        <label for="author">Author</label>
+        <input type="text" id="author" placeholder="put the author here " #author >
+        
+        <label for="Title">Title</label>
+        <input type="text" id="Title" placeholder="put the title here " #title >
+        
+        <label for="price">Price</label>
+        <input type="text" id="Price" placeholder="put the author here " #price >
+        <button (click)="sendBookEvent(author.value, title.value, price.value)" >Add</button>
+    </section>
+        
+</div>

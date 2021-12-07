@@ -1,0 +1,19 @@
+<table>
+    <h1>List of books</h1>
+    <tr>
+        <th>Author</th>
+        <th>Title</th>
+        <th>Price</th>
+    </tr>
+    <tr>
+        <td>test</td>
+        <td>test</td>
+        <td>test</td>
+    </tr>
+    <tr *ngFor="let book of books">
+        <td> {{book.getAuthor()}} </td>
+        <td> {{book.getTitle()}} </td>
+        <td> {{book.getPrice()}} </td>
+    </tr>
+    <app-add-book (bookEvent)="receiveBookEvent($event)"></app-add-book>
+</table>
